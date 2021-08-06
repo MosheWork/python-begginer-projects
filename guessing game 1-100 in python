@@ -11,7 +11,8 @@ while(flag==0):
         User_number = input("please choose a number from 1-100")
     else:
      if User_number==pc_number:
-         print("Good job!!")
+         print("************You guessed right**********")
+         print("************Good job!!*****************")
          flag=1
 
     if User_number>pc_number:
